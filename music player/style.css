@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(232, 242, 195);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#musicplayer{
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(169, 193, 222);
+    text-align: center;
+    color: rgba(255, 255, 255, 0.91);
+    height: 500px;
+    width:500px;
+    display: flex;
+    margin: 5%;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+img{
+    width:200px;
+    height: auto;
+    border-color: white;
+    border-width: 2px;
+}
+input[type='range']
+{
+ accent-color: rgb(153, 185, 208); 
+ width: 500px;
+ height: 5px;
+ padding: 0;
+ border-radius: 2px;
+ /*outline: none;*/
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: 1s;
+ }
+button{
+    background-color: rgb(234, 239, 234);
+    column-gap: 50px;
+    border-radius:2px;
+    cursor: pointer;
+}
+.buttonstyling{
+display: block;
+
+}
+audio{
+    display: none;
+}
+button:hover{
+    background-color: rgb(212, 210, 206);
+}
